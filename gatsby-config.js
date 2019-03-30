@@ -1,3 +1,5 @@
+const cred = require('./cred.js')
+
 module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -5,7 +7,7 @@ module.exports = {
       resolve: `gatsby-source-firebase-firestore`,
       options: {
         // pass you Firebase credentials in here.
-        credential: require('./firebase.json')['credential'],
+        credential: cred,
         databaseURL: 'https://doormangats.firebaseio.com',
         types: [
           {
