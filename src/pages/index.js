@@ -19,6 +19,9 @@ export default () => (
         </>
       )}
     </p>
+    <p>
+      Or sign up for an account <Link to="/app/signup">here</Link>
+    </p>
   </Layout>
 )
 
