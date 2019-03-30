@@ -1,13 +1,13 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react'
+import { Link } from 'gatsby'
 
 export default () => (
   <div
     style={{
-      display: flex,
+      display: 'flex',
       flex: 1,
-      justifyContent: "space-between",
-      borderBottom: "1px solid #d1c1e0"
+      justifyContent: 'space-between',
+      borderBottom: '1px solid #d1c1e0'
     }}
   >
     <span>You are not logged in!</span>
@@ -21,4 +21,4 @@ export default () => (
       {` `}
     </nav>
   </div>
-);
+)
