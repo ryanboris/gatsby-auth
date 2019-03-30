@@ -32,7 +32,7 @@ export default function Login() {
         </label>
         <label>
           Password
-          <input type="text" onChange={handlePassword} />
+          <input type="password" onChange={handlePassword} />
         </label>
         <input type="submit" value="Log In" />
       </form>
