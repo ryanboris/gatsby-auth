@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { getUser, isLoggedIn } from '../services/auth'
-
 import Layout from '../components/Layout'
+
+import * as signInSvg from '../../static/sign-in.svg'
 
 export default () => (
   <Layout>
@@ -22,6 +23,16 @@ export default () => (
     <p>
       Or sign up for an account <Link to="/app/signup">here</Link>
     </p>
+    <a href="https://github.com/login/oauth/authorize?client_id=5fecc339292cbcb09f2f">
+      <img
+        src={signInSvg}
+        alt="github"
+        css={`
+          transform: scale(2.5);
+          margin: 30px;
+        `}
+      />
+    </a>
   </Layout>
 )
 

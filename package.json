@@ -11,6 +11,8 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
     "babel-plugin-styled-components": "^1.10.0",
     "firebase-admin": "^7.2.0",
     "firebase-functions": "^2.2.1",
