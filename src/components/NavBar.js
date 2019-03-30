@@ -12,7 +12,13 @@ export default () => (
   >
     <span>You are not logged in!</span>
 
-    <nav>
+    <nav
+      style={{
+        width: '20%',
+        display: 'flex',
+        justifyContent: 'space-around'
+      }}
+    >
       <Link to="/">Home</Link>
       {` `}
       <Link to="/">Profile</Link>
